@@ -13,7 +13,7 @@ This backend is responsible for:
 
 #Finished
 - Spring Boot project setup
-- REST API endpoints using hardcoded data:
+- REST API endpoints with in-memory storage:
   - `GET /contacts`
   - `POST /contacts`
   - `DELETE /contacts/{id}`
