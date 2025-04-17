@@ -17,11 +17,11 @@ This backend is responsible for:
   - `GET /contacts`
   - `POST /contacts`
   - `DELETE /contacts/{id}`
+- Creating models/entities for persistence
+- Building logic for alerts and location storage
 
 #In Progress
 - Connecting to a database (H2 → PostgreSQL)
-- Creating models/entities for persistence
-- Building logic for alerts and location storage
 
 #Planned / Next
 - Google Maps API integration (for coordinates)
@@ -42,13 +42,17 @@ This backend is responsible for:
 
 #API Endpoints
 
-| Method | Endpoint           | Description                     |
-|--------|--------------------|---------------------------------|
-| GET    | `/contacts`        | Get all emergency contacts      |
-| POST   | `/contacts`        | Add a new emergency contact     |
-| DELETE | `/contacts/{id}`   | Delete a contact by ID          |
-| POST   | `/location`        | Save user's last known location |
-| POST   | `/alert`           | Trigger an emergency alert      |
+| Method | Endpoint           | Description                          |
+|--------|--------------------|--------------------------------------|
+| GET    | `/contacts`         | Get all emergency contacts           |
+| POST   | `/contacts`         | Add a new emergency contact          |
+| DELETE | `/contacts/{id}`    | Delete a contact by ID               |
+| GET    | `/alerts`           | Get all alerts                      |
+| POST   | `/alerts`           | Trigger a new emergency alert        |
+| DELETE | `/alerts/{id}`      | Delete an alert by ID                |
+| GET    | `/locations`        | Get all saved locations              |
+| POST   | `/locations`        | Save user's last known location      |
+| DELETE | `/locations/{id}`   | Delete a location by ID              |
 
 ---
 
