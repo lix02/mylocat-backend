@@ -1,4 +1,4 @@
-package com.lix02.mylocat.backend;
+package com.lix02.mylocat.backend.Contact;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

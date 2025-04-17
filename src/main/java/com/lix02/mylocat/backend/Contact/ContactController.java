@@ -1,6 +1,5 @@
-package com.lix02.mylocat.backend;
+package com.lix02.mylocat.backend.Contact;
 import java.util.List;
-import com.lix02.mylocat.backend.ContactRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,11 +12,13 @@ public class ContactController {
 
     @GetMapping("/contacts")
     public List<Contact> getContacts() {
+
         return contactRepository.findAll();
     }
 
     @PostMapping("/contacts")
     public Contact addContact(@RequestBody Contact contact) {
+
         return contactRepository.save(contact);
     }
 
