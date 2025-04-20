@@ -19,9 +19,10 @@ This backend is responsible for:
   - `DELETE /contacts/{id}`
 - Creating models/entities for persistence
 - Building logic for alerts and location storage
+- Connecting to a database (H2 → PostgreSQL)
 
 #In Progress
-- Connecting to a database (H2 → PostgreSQL)
+- Frontend development with React (basic UI for managing contacts, locations, alerts)
 
 #Planned / Next
 - Google Maps API integration (for coordinates)
