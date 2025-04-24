@@ -7,6 +7,8 @@ This backend is responsible for:
 - Storing user location coordinates
 - Handling emergency alert triggers
 
+This project connects to the [MyLocat Frontend](https://github.com/lix02/mylocat-frontend).
+
 ---
 
 #Project Status
@@ -54,13 +56,6 @@ This backend is responsible for:
 | GET    | `/locations`        | Get all saved locations              |
 | POST   | `/locations`        | Save user's last known location      |
 | DELETE | `/locations/{id}`   | Delete a location by ID              |
-
----
-
-#Related Projects
-
-[mylocat-frontend] (Coming soon)
-This API will be consumed by a React frontend (currently in development).
 
 ---
 
