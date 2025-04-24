@@ -59,6 +59,12 @@ This project connects to the [MyLocat Frontend](https://github.com/lix02/mylocat
 
 ---
 
+#Design
+
+UI design by Geraldine Gunawan, who created the original concept and layout for the MyLocat interface.
+
+---
+
 #Author
 
 Linda Stumpf. Full-stack learner building real-world apps with Spring Boot & React.
